@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+@theme {
+  --container-*: initial;
+  --breakpoint-*: initial;
+  --color-*: initial;
+  --font-*: initial;
+  --text-*: initial;
+  --spacing: 1px;
+  --aspect-vertical: 4 / 5;
+  --aspect-horizontal: 13 / 10;
+}
+
+@utility container {
+  max-width: 100%;
+}
+
+:root {
+  --sans: "Berlingske Sans", system-ui, sans-serif;
+  --serif: "Berlingske Serif", Georgia, serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+  scroll-behavior: smooth;
+  font-family: "Berlingske Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Berlingske Sans";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/BerlingskeSans-Demibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Berlingske Sans";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/BerlingskeSans-Md.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Berlingske Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/BerlingskeSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Berlingske Serif";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/BerlingskeSerif-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Berlingske Serif";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/BerlingskeSerif-Lt.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Berlingske Serif";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/BerlingskeSerif-Md.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Berlingske Serif";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/BerlingskeSerif-Regular.woff2") format("woff2");
+}

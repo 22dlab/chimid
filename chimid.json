@@ -1,0 +1,1041 @@
+[
+  {
+    "Colors": {
+      "modes": {
+        "Mode 1": {
+          "Neutral": {
+            "White": { "$type": "color", "$value": "#ffffff" },
+            "Black": { "$type": "color", "$value": "#000000" }
+          },
+          "Purple": {
+            "10": { "$type": "color", "$value": "#f6f2ff" },
+            "20": { "$type": "color", "$value": "#e8daff" },
+            "30": { "$type": "color", "$value": "#d4bbff" },
+            "40": { "$type": "color", "$value": "#be95ff" },
+            "50": { "$type": "color", "$value": "#a56eff" },
+            "60": { "$type": "color", "$value": "#8a3ffc" },
+            "70": { "$type": "color", "$value": "#6929c4" },
+            "80": { "$type": "color", "$value": "#491d8b" },
+            "90": { "$type": "color", "$value": "#31135e" },
+            "100": { "$type": "color", "$value": "#1c0f30" }
+          },
+          "Red": {
+            "10": { "$type": "color", "$value": "#fff1f1" },
+            "20": { "$type": "color", "$value": "#ffd7d9" },
+            "30": { "$type": "color", "$value": "#ffb3b8" },
+            "40": { "$type": "color", "$value": "#ff8389" },
+            "50": { "$type": "color", "$value": "#fa4d56" },
+            "60": { "$type": "color", "$value": "#da1e28" },
+            "70": { "$type": "color", "$value": "#a2191f" },
+            "80": { "$type": "color", "$value": "#750e13" },
+            "90": { "$type": "color", "$value": "#520408" },
+            "100": { "$type": "color", "$value": "#2d0709" }
+          },
+          "Teal": {
+            "10": { "$type": "color", "$value": "#d9fbfb" },
+            "20": { "$type": "color", "$value": "#9ef0f0" },
+            "30": { "$type": "color", "$value": "#3ddbd9" },
+            "40": { "$type": "color", "$value": "#08bdba" },
+            "50": { "$type": "color", "$value": "#009d9a" },
+            "60": { "$type": "color", "$value": "#007d79" },
+            "70": { "$type": "color", "$value": "#005d5d" },
+            "80": { "$type": "color", "$value": "#004144" },
+            "90": { "$type": "color", "$value": "#022b30" },
+            "100": { "$type": "color", "$value": "#081a1c" }
+          },
+          "Yellow": {
+            "10": { "$type": "color", "$value": "#fcf4d6" },
+            "20": { "$type": "color", "$value": "#fddc69" },
+            "30": { "$type": "color", "$value": "#f1c21b" },
+            "40": { "$type": "color", "$value": "#d2a106" },
+            "50": { "$type": "color", "$value": "#b28600" },
+            "60": { "$type": "color", "$value": "#8e6a00" },
+            "70": { "$type": "color", "$value": "#684e00" },
+            "80": { "$type": "color", "$value": "#483700" },
+            "90": { "$type": "color", "$value": "#302400" },
+            "100": { "$type": "color", "$value": "#1c1500" }
+          },
+          "Orange": {
+            "10": { "$type": "color", "$value": "#fff2e8" },
+            "20": { "$type": "color", "$value": "#ffd9be" },
+            "30": { "$type": "color", "$value": "#ffb784" },
+            "40": { "$type": "color", "$value": "#ff832b" },
+            "50": { "$type": "color", "$value": "#eb6200" },
+            "60": { "$type": "color", "$value": "#ba4e00" },
+            "70": { "$type": "color", "$value": "#8a3800" },
+            "80": { "$type": "color", "$value": "#5e2900" },
+            "90": { "$type": "color", "$value": "#3e1a00" },
+            "100": { "$type": "color", "$value": "#231000" }
+          },
+          "Blue": {
+            "10": { "$type": "color", "$value": "#edf5ff" },
+            "20": { "$type": "color", "$value": "#d0e2ff" },
+            "30": { "$type": "color", "$value": "#a6c8ff" },
+            "40": { "$type": "color", "$value": "#78a9ff" },
+            "50": { "$type": "color", "$value": "#4589ff" },
+            "60": { "$type": "color", "$value": "#0f62fe" },
+            "70": { "$type": "color", "$value": "#0043ce" },
+            "80": { "$type": "color", "$value": "#002d9c" },
+            "90": { "$type": "color", "$value": "#001d6c" },
+            "100": { "$type": "color", "$value": "#001141" }
+          },
+          "Gray": {
+            "10": { "$type": "color", "$value": "#f4f4f4" },
+            "20": { "$type": "color", "$value": "#e0e0e0" },
+            "30": { "$type": "color", "$value": "#c6c6c6" },
+            "40": { "$type": "color", "$value": "#a8a8a8" },
+            "50": { "$type": "color", "$value": "#8d8d8d" },
+            "60": { "$type": "color", "$value": "#6f6f6f" },
+            "70": { "$type": "color", "$value": "#525252" },
+            "80": { "$type": "color", "$value": "#393939" },
+            "90": { "$type": "color", "$value": "#262626" },
+            "100": { "$type": "color", "$value": "#161616" }
+          },
+          "Cool Gray": {
+            "10": { "$type": "color", "$value": "#f2f4f8" },
+            "20": { "$type": "color", "$value": "#dde1e6" },
+            "30": { "$type": "color", "$value": "#c1c7cd" },
+            "40": { "$type": "color", "$value": "#a2a9b0" },
+            "50": { "$type": "color", "$value": "#878d96" },
+            "60": { "$type": "color", "$value": "#697077" },
+            "70": { "$type": "color", "$value": "#4d5358" },
+            "80": { "$type": "color", "$value": "#343a3f" },
+            "90": { "$type": "color", "$value": "#21272a" },
+            "100": { "$type": "color", "$value": "#121619" }
+          },
+          "Warm Gray": {
+            "10": { "$type": "color", "$value": "#f7f3f2" },
+            "20": { "$type": "color", "$value": "#e5e0df" },
+            "30": { "$type": "color", "$value": "#cac5c4" },
+            "40": { "$type": "color", "$value": "#ada8a8" },
+            "50": { "$type": "color", "$value": "#8f8b8b" },
+            "60": { "$type": "color", "$value": "#726e6e" },
+            "70": { "$type": "color", "$value": "#565151" },
+            "80": { "$type": "color", "$value": "#3c3838" },
+            "90": { "$type": "color", "$value": "#272525" },
+            "100": { "$type": "color", "$value": "#171414" }
+          },
+          "Cyan": {
+            "10": { "$type": "color", "$value": "#e5f6ff" },
+            "20": { "$type": "color", "$value": "#bae6ff" },
+            "30": { "$type": "color", "$value": "#82cfff" },
+            "40": { "$type": "color", "$value": "#33b1ff" },
+            "50": { "$type": "color", "$value": "#1192e8" },
+            "60": { "$type": "color", "$value": "#0072c3" },
+            "70": { "$type": "color", "$value": "#00539a" },
+            "80": { "$type": "color", "$value": "#003a6d" },
+            "90": { "$type": "color", "$value": "#012749" },
+            "100": { "$type": "color", "$value": "#061727" }
+          },
+          "Green": {
+            "10": { "$type": "color", "$value": "#defbe6" },
+            "20": { "$type": "color", "$value": "#a7f0ba" },
+            "30": { "$type": "color", "$value": "#6fdc8c" },
+            "40": { "$type": "color", "$value": "#42be65" },
+            "50": { "$type": "color", "$value": "#24a148" },
+            "60": { "$type": "color", "$value": "#198038" },
+            "70": { "$type": "color", "$value": "#0e6027" },
+            "80": { "$type": "color", "$value": "#044317" },
+            "90": { "$type": "color", "$value": "#022d0d" },
+            "100": { "$type": "color", "$value": "#071908" }
+          },
+          "Magenta": {
+            "10": { "$type": "color", "$value": "#fff0f7" },
+            "20": { "$type": "color", "$value": "#ffd6e8" },
+            "30": { "$type": "color", "$value": "#ffafd2" },
+            "40": { "$type": "color", "$value": "#ff7eb6" },
+            "50": { "$type": "color", "$value": "#ee5396" },
+            "60": { "$type": "color", "$value": "#d02670" },
+            "70": { "$type": "color", "$value": "#9f1853" },
+            "80": { "$type": "color", "$value": "#740937" },
+            "90": { "$type": "color", "$value": "#510224" },
+            "100": { "$type": "color", "$value": "#2a0a18" }
+          },
+          "Chimid": {
+            "Cream": { "$type": "color", "$value": "#f6e8d7" },
+            "Darker cream": { "$type": "color", "$value": "#eccfac" },
+            "Gold": { "$type": "color", "$value": "#c39039" },
+            "Dark navy": { "$type": "color", "$value": "#22323d" },
+            "Darker navy": { "$type": "color", "$value": "#1a262e" }
+          }
+        }
+      }
+    }
+  },
+  {
+    "Color-usage": {
+      "modes": {
+        "Main": {
+          "text": {
+            "primary": {
+              "$codeSyntax": { "WEB": "text-primary" },
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Dark navy}"
+            },
+            "secondary": {
+              "$codeSyntax": { "WEB": "text-secondary" },
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$value": "{Cool Gray.70}"
+            },
+            "primary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Cream}"
+            },
+            "secondary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Gray.40}"
+            },
+            "tertiary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Darker navy}"
+            },
+            "accent": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Gold}"
+            },
+            "interactive": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.40}"
+            },
+            "error": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$value": "{Red.70}"
+            }
+          },
+          "border": {
+            "primary": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Gold}"
+            },
+            "secondary": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Darker cream}"
+            },
+            "interactive": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$value": "{Cool Gray.50}"
+            }
+          },
+          "background": {
+            "primary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Cream}"
+            },
+            "secondary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cool Gray.10}"
+            },
+            "tertiary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Neutral.White}"
+            },
+            "inverse": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Dark navy}"
+            },
+            "accent-1": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Darker navy}"
+            },
+            "accent-2": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Chimid.Gold}"
+            },
+            "interactive": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.60}"
+            },
+            "interactive-medium": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.70}"
+            },
+            "interactive-strong": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.80}"
+            },
+            "overlay": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "rgba(162, 169, 176, 50)"
+            }
+          }
+        },
+        "Theme 2": {
+          "text": {
+            "primary": {
+              "$codeSyntax": { "WEB": "text-primary" },
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.80}"
+            },
+            "secondary": {
+              "$codeSyntax": { "WEB": "text-secondary" },
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Warm Gray.70}"
+            },
+            "primary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Warm Gray.10}"
+            },
+            "secondary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Warm Gray.40}"
+            },
+            "tertiary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.90}"
+            },
+            "accent": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.50}"
+            },
+            "interactive": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.40}"
+            },
+            "error": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$value": "{Red.70}"
+            }
+          },
+          "border": {
+            "primary": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.50}"
+            },
+            "secondary": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.30}"
+            },
+            "interactive": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$value": "{Cool Gray.50}"
+            }
+          },
+          "background": {
+            "primary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Warm Gray.10}"
+            },
+            "secondary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cool Gray.10}"
+            },
+            "tertiary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Neutral.White}"
+            },
+            "inverse": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.80}"
+            },
+            "accent-1": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.90}"
+            },
+            "accent-2": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.50}"
+            },
+            "interactive": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.60}"
+            },
+            "interactive-medium": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.70}"
+            },
+            "interactive-strong": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.80}"
+            },
+            "overlay": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "rgba(162, 169, 176, 50)"
+            }
+          }
+        },
+        "Theme 3": {
+          "text": {
+            "primary": {
+              "$codeSyntax": { "WEB": "text-primary" },
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Gray.10}"
+            },
+            "secondary": {
+              "$codeSyntax": { "WEB": "text-secondary" },
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Gray.40}"
+            },
+            "primary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.80}"
+            },
+            "secondary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Gray.70}"
+            },
+            "tertiary-inverse": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Gray.20}"
+            },
+            "accent": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.50}"
+            },
+            "interactive": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.40}"
+            },
+            "error": {
+              "$scopes": ["TEXT_FILL"],
+              "$type": "color",
+              "$value": "{Red.70}"
+            }
+          },
+          "border": {
+            "primary": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.50}"
+            },
+            "secondary": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.30}"
+            },
+            "interactive": {
+              "$scopes": ["STROKE_COLOR"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.40}"
+            }
+          },
+          "background": {
+            "primary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.80}"
+            },
+            "secondary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.90}"
+            },
+            "tertiary": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Neutral.White}"
+            },
+            "inverse": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Gray.10}"
+            },
+            "accent-1": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Gray.20}"
+            },
+            "accent-2": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Colors",
+              "$value": "{Cyan.40}"
+            },
+            "interactive": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.60}"
+            },
+            "interactive-medium": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.70}"
+            },
+            "interactive-strong": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "{Cyan.80}"
+            },
+            "overlay": {
+              "$scopes": ["FRAME_FILL", "SHAPE_FILL"],
+              "$type": "color",
+              "$value": "rgba(162, 169, 176, 50)"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "Grid & spacing": {
+      "modes": {
+        "xs-sm": {
+          "Breakpoint name": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "string",
+            "$value": "xs-sm"
+          },
+          "Display": {
+            "Screen Width": {
+              "$scopes": ["WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 393
+            }
+          },
+          "Range": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "string",
+            "$value": "0-428, 429-743"
+          },
+          "Grid": {
+            "Columns": { "$type": "float", "$value": 6 },
+            "Gutter": { "$scopes": ["GAP"], "$type": "float", "$value": 16 },
+            "Margin": { "$type": "float", "$value": 16 }
+          },
+          "Spacing": {
+            "set-1": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.4}"
+            },
+            "set-2": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.8}"
+            },
+            "set-3": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.8}"
+            },
+            "set-4": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.16}"
+            },
+            "set-5": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.24}"
+            },
+            "set-6": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.40}"
+            },
+            "set-7": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.72}"
+            },
+            "set-8": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.84}"
+            },
+            "set-9": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.144}"
+            },
+            "set-10": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.180}"
+            },
+            "set-11": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.180}"
+            }
+          }
+        },
+        "md": {
+          "Breakpoint name": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "string",
+            "$value": "md"
+          },
+          "Display": {
+            "Screen Width": {
+              "$scopes": ["WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 834
+            }
+          },
+          "Range": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "string",
+            "$value": "744-1279"
+          },
+          "Grid": {
+            "Columns": { "$type": "float", "$value": 8 },
+            "Gutter": { "$scopes": ["GAP"], "$type": "float", "$value": 16 },
+            "Margin": { "$type": "float", "$value": 16 }
+          },
+          "Spacing": {
+            "set-1": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.4}"
+            },
+            "set-2": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.8}"
+            },
+            "set-3": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.8}"
+            },
+            "set-4": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.16}"
+            },
+            "set-5": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.40}"
+            },
+            "set-6": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.48}"
+            },
+            "set-7": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.84}"
+            },
+            "set-8": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.112}"
+            },
+            "set-9": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.160}"
+            },
+            "set-10": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.200}"
+            },
+            "set-11": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.200}"
+            }
+          }
+        },
+        "lg-xl": {
+          "Breakpoint name": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "string",
+            "$value": "lg-xl"
+          },
+          "Display": {
+            "Screen Width": {
+              "$scopes": ["WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 1440
+            }
+          },
+          "Range": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "string",
+            "$value": "1280-1439, 1440-1919"
+          },
+          "Grid": {
+            "Columns": { "$type": "float", "$value": 12 },
+            "Gutter": { "$scopes": ["GAP"], "$type": "float", "$value": 24 },
+            "Margin": { "$type": "float", "$value": 32 }
+          },
+          "Spacing": {
+            "set-1": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.4}"
+            },
+            "set-2": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.8}"
+            },
+            "set-3": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.12}"
+            },
+            "set-4": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.24}"
+            },
+            "set-5": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.48}"
+            },
+            "set-6": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.60}"
+            },
+            "set-7": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.96}"
+            },
+            "set-8": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.144}"
+            },
+            "set-9": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.180}"
+            },
+            "set-10": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.180}"
+            },
+            "set-11": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.264}"
+            }
+          }
+        },
+        "xl+": {
+          "Breakpoint name": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "string",
+            "$value": "xl+"
+          },
+          "Display": {
+            "Screen Width": {
+              "$scopes": ["WIDTH_HEIGHT"],
+              "$type": "float",
+              "$value": 1920
+            }
+          },
+          "Range": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "string",
+            "$value": "1920+"
+          },
+          "Grid": {
+            "Columns": { "$type": "float", "$value": 12 },
+            "Gutter": { "$scopes": ["GAP"], "$type": "float", "$value": 24 },
+            "Margin": { "$type": "float", "$value": 24 }
+          },
+          "Spacing": {
+            "set-1": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.4}"
+            },
+            "set-2": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.8}"
+            },
+            "set-3": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.12}"
+            },
+            "set-4": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.24}"
+            },
+            "set-5": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.48}"
+            },
+            "set-6": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.72}"
+            },
+            "set-7": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.112}"
+            },
+            "set-8": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.160}"
+            },
+            "set-9": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.200}"
+            },
+            "set-10": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.256}"
+            },
+            "set-11": {
+              "$scopes": ["GAP"],
+              "$type": "float",
+              "$value": "{space.256}"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "Primitives": {
+      "modes": {
+        "Mode 1": {
+          "font": {
+            "weight": {
+              "100": { "$type": "float", "$value": 100 },
+              "200": { "$type": "float", "$value": 200 },
+              "300": { "$type": "float", "$value": 300 },
+              "400": { "$type": "float", "$value": 400 },
+              "500": { "$type": "float", "$value": 500 },
+              "600": { "$type": "float", "$value": 600 },
+              "700": { "$type": "float", "$value": 700 },
+              "800": { "$type": "float", "$value": 800 },
+              "900": { "$type": "float", "$value": 900 }
+            },
+            "size": {
+              "0": { "$type": "float", "$value": 14 },
+              "1": { "$type": "float", "$value": 16 },
+              "2": { "$type": "float", "$value": 18 },
+              "3": { "$type": "float", "$value": 21 },
+              "4": { "$type": "float", "$value": 24 },
+              "5": { "$type": "float", "$value": 28 },
+              "6": { "$type": "float", "$value": 32 },
+              "7": { "$type": "float", "$value": 37 },
+              "8": { "$type": "float", "$value": 42 },
+              "9": { "$type": "float", "$value": 49 },
+              "10": { "$type": "float", "$value": 56 },
+              "11": { "$type": "float", "$value": 64 },
+              "12": { "$type": "float", "$value": 74 },
+              "13": { "$type": "float", "$value": 84 },
+              "14": { "$type": "float", "$value": 97 },
+              "15": { "$type": "float", "$value": 111 },
+              "16": { "$type": "float", "$value": 128 },
+              "17": { "$type": "float", "$value": 147 },
+              "18": { "$type": "float", "$value": 169 },
+              "19": { "$type": "float", "$value": 194 },
+              "20": { "$type": "float", "$value": 223 },
+              "-4": { "$type": "float", "$value": 8 },
+              "-3": { "$type": "float", "$value": 9 },
+              "-2": { "$type": "float", "$value": 11 },
+              "-1": { "$type": "float", "$value": 12 }
+            },
+            "family": {
+              "sans": {
+                "$scopes": ["ALL_SCOPES"],
+                "$type": "string",
+                "$value": "Berlingske Sans"
+              },
+              "serif": {
+                "$scopes": ["ALL_SCOPES"],
+                "$type": "string",
+                "$value": "Berlingske Serif"
+              },
+              "mono": {
+                "$scopes": ["ALL_SCOPES"],
+                "$type": "string",
+                "$value": "IBM Plex Mono"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "Typography": {
+      "modes": {
+        "xs-sm": {
+          "type-sets": {
+            "display": {
+              "1": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": "{font.size.8}"
+              }
+            }
+          }
+        },
+        "md": {
+          "type-sets": {
+            "display": {
+              "1": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": "{font.size.10}"
+              }
+            }
+          }
+        },
+        "lg-xl": {
+          "type-sets": {
+            "display": {
+              "1": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": "{font.size.12}"
+              }
+            }
+          }
+        },
+        "xl+": {
+          "type-sets": {
+            "display": {
+              "1": {
+                "$scopes": ["FONT_SIZE"],
+                "$type": "float",
+                "$value": "{font.size.13}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
