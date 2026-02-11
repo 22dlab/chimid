@@ -6,7 +6,6 @@ import { AnimatePresence } from "framer-motion"
 import { Navbar, Footer, Devtool, SplashScreen } from "@/components/common"
 
 import "@/style/globals.css"
-import Maintenance from "@/components/common/Maintenance"
 
 export default function RootLayout({
   children
@@ -34,13 +33,12 @@ export default function RootLayout({
     }
   }, [])
 
-  // Under maintenance
-  // if (!ready && !showSplash)
-  //   return (
-  //     <html>
-  //       <body></body>
-  //     </html>
-  //   )
+  if (!ready && !showSplash)
+    return (
+      <html>
+        <body></body>
+      </html>
+    )
 
   return (
     <html lang='en'>
@@ -49,14 +47,13 @@ export default function RootLayout({
         <link rel='icon' href='/favicon/favicon.ico' />
       </head>
       <body>
-        <Maintenance />
-        {/* <Navbar />
+        <Navbar />
         <AnimatePresence mode='wait'>
           {showSplash && <SplashScreen key='splash' />}
         </AnimatePresence>
         {children}
         <Footer />
-        <Devtool /> */}
+        <Devtool />
       </body>
     </html>
   )
