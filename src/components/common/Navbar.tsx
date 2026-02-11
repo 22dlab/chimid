@@ -87,8 +87,8 @@ export function Navbar() {
             ? "bg-inverse text-primary-inverse"
             : "bg-transparent text-primary-inverse"
           : scrolled
-          ? "bg-primary text-primary"
-          : "bg-transparent text-primary"
+            ? "bg-primary text-primary"
+            : "bg-transparent text-primary"
       } ${
         scrollUp || open ? "translate-y-0" : "-translate-y-[100%]"
       } fixed top-0 z-50 w-screen transition duration-300 delay-150 ease-in-out border-b border-primary`}
@@ -147,7 +147,7 @@ export function Navbar() {
             initial={{ clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)" }}
             animate={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" }}
             exit={{ clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)" }}
-            transition={{ duration: "0.5", ease: "easeOut" }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
             className={`fixed inset-0 w-screen h-screen overflow-hidden ${
               !inverse
                 ? "bg-inverse text-primary-inverse"
